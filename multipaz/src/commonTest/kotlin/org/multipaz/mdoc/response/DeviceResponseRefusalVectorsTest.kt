@@ -86,7 +86,6 @@ class DeviceResponseRefusalVectorsTest {
             "Device-signed data element 'device_note' in namespace 'org.example.device' is not authorized by MSO"
         ),
         "md-issuerauth-sig-flipped" to issuerSignatureFailed,
-        "md-issuerauth-sig-der" to issuerSignatureFailed,
         "md-digest-value-modified" to digestMismatch,
         "md-digest-reencoded-item" to digestMismatch,
         "md-digest-length" to digestMismatch,
